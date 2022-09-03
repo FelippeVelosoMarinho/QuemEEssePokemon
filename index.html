@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Quem é esse Pokemon?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon-16x16.png"><!--https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblczX25DNEVXTW5rV1cwbm43Z2pTa1NEMHNZUXxBQ3Jtc0tsY1A2SXk0bmRvQjdSd2VSLUY1OUZ4UHcxYlB2NFgzTEFjSlZTb2dhem43VE1YNXUwYnF6ODNHOC13RFdSUjJMcUtQWkZDY1lYYVcxRGItNXFSSU9qbjdoY2FmLXIyM2c3R2lZb3laZ2hZcHhPT1FfRQ&q=https%3A%2F%2Fwww.websiteplanet.com%2Fpt-br%2Fwebtools%2Ffavicon-generator%2F&v=SjtdH3dWLa8-->
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h1 id="who">Quem é esse Pokemon?</h1>
+    <h1 class="pokemon_data">
+        <span id="blur" class="pokemon_number"></span> - <span id="blur" class="pokemon_name"></span>
+    </h1>   
+    
+    <form class="form">
+        <input type="search" id="text-input" class="input_search" placeholder="Digite o nome..." required>
+    </form>
+
+    <div class="buttons">
+        <button class="button btn-next">Next &gt;</button>
+    </div>
+
+    <div id="elements">
+        
+        <img id="blur" src="#" alt="pokemon" class="pokemon_image">
+        
+
+        
+        <img src="pokedex.png" alt="pokedex" class="pokedex">
+        <!--<div id="proximos">
+            
+            <input type="text" Title="Insira o nome do Pokemon" id="nick" placeholder="Insira so nome do Pokemon">
+            <button id="btn" class="botao" onclick="getPoke()">Próximo</button>  
+        </div>-->
+    </div>
+    <h2 id="pts"></h2>
+</body>
+</html>
